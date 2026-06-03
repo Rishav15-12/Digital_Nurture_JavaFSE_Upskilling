@@ -1,1 +1,25 @@
-interface Playable{void play();} class Guitar implements Playable{public void play(){System.out.println("Guitar");}} class Piano implements Playable{public void play(){System.out.println("Piano");}} public class Q19_InterfaceDemo{public static void main(String[]a){new Guitar().play();new Piano().play();}}
+interface Playable {
+    void play();
+}
+
+class Guitar implements Playable {
+    public void play() {
+        System.out.println("Playing Guitar");
+    }
+}
+
+class Piano implements Playable {
+    public void play() {
+        System.out.println("Playing Piano");
+    }
+}
+
+public class Q19_InterfaceDemo {
+    public static void main(String[] args) {
+        Playable guitar = new Guitar();
+        Playable piano = new Piano();
+
+        guitar.play();
+        piano.play();
+    }
+}
