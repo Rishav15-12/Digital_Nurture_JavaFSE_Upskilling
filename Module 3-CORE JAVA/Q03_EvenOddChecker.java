@@ -1,1 +1,18 @@
-import java.util.*; public class Q03_EvenOddChecker{public static void main(String[]a){int n=new Scanner(System.in).nextInt();System.out.println(n%2==0?"Even":"Odd");}}
+import java.util.Scanner;
+
+public class Q03_EvenOddChecker {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter an integer: ");
+        int number = sc.nextInt();
+
+        if (number % 2 == 0) {
+            System.out.println(number + " is Even.");
+        } else {
+            System.out.println(number + " is Odd.");
+        }
+
+        sc.close();
+    }
+}
