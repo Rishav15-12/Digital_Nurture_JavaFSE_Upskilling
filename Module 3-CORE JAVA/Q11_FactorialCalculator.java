@@ -1,1 +1,24 @@
-import java.util.*; public class Q11_FactorialCalculator{public static void main(String[]a){int n=new Scanner(System.in).nextInt();long f=1;for(int i=1;i<=n;i++)f*=i;System.out.println(f);}}
+import java.util.Scanner;
+
+public class Q11_FactorialCalculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a non-negative integer: ");
+        int n = sc.nextInt();
+
+        if (n < 0) {
+            System.out.println("Factorial is not defined for negative numbers.");
+        } else {
+            long factorial = 1;
+
+            for (int i = 1; i <= n; i++) {
+                factorial *= i;
+            }
+
+            System.out.println("Factorial of " + n + " = " + factorial);
+        }
+
+        sc.close();
+    }
+}
