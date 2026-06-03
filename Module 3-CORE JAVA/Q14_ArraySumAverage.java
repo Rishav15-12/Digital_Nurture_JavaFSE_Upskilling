@@ -1,1 +1,27 @@
-public class Q14_ArraySumAverage{public static void main(String[]a){int[] x={1,2,3};int s=0;for(int i:x)s+=i;System.out.println(s+" "+(s/(double)x.length));}}
+import java.util.Scanner;
+
+public class Q14_ArraySumAverage {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number of elements: ");
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+        int sum = 0;
+
+        System.out.println("Enter " + n + " elements:");
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+            sum += arr[i];
+        }
+
+        double average = (double) sum / n;
+
+        System.out.println("Sum = " + sum);
+        System.out.println("Average = " + average);
+
+        sc.close();
+    }
+}
