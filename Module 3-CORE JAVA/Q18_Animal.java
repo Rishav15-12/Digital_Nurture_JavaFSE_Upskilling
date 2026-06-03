@@ -1,1 +1,0 @@
-public class Q18_Animal{void makeSound(){System.out.println("Animal Sound");}}
