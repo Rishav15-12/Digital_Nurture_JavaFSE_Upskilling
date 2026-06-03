@@ -1,1 +1,21 @@
-class T extends Thread{public void run(){System.out.println("Running");}} public class Q26_ThreadDemo{public static void main(String[]a){new T().start();new T().start();}}
+class MyThread extends Thread {
+
+    @Override
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(Thread.currentThread().getName() +
+                               " is running - Count: " + i);
+        }
+    }
+}
+
+public class Q26_ThreadDemo {
+    public static void main(String[] args) {
+
+        MyThread t1 = new MyThread();
+        MyThread t2 = new MyThread();
+
+        t1.start();
+        t2.start();
+    }
+}
