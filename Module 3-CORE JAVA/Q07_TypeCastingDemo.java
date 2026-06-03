@@ -1,0 +1,1 @@
+public class Q07_TypeCastingDemo{public static void main(String[]a){double d=12.8;int i=(int)d;double d2=i;System.out.println(i+" "+d2);}}

@@ -1,0 +1,1 @@
+public class Q08_OperatorPrecedence{public static void main(String[]a){System.out.println(10+5*2);}}

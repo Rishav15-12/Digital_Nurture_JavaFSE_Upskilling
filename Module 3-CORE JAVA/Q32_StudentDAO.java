@@ -1,0 +1,1 @@
+public class Q32_StudentDAO{void insert(){} void update(){}}

@@ -1,0 +1,1 @@
+import java.util.*; public class Q02_SimpleCalculator{public static void main(String[]a){Scanner s=new Scanner(System.in);double x=s.nextDouble(),y=s.nextDouble();System.out.println(x+y);System.out.println(x-y);System.out.println(x*y);System.out.println(y!=0?x/y:"Divide by zero");}}

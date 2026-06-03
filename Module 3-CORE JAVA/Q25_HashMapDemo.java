@@ -1,0 +1,1 @@
+import java.util.*; public class Q25_HashMapDemo{public static void main(String[]a){HashMap<Integer,String> m=new HashMap<>();m.put(1,"John");System.out.println(m.get(1));}}

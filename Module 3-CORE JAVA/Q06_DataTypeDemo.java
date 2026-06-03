@@ -1,0 +1,1 @@
+public class Q06_DataTypeDemo{public static void main(String[]a){int i=10;float f=2.5f;double d=3.14;char c='A';boolean b=true;System.out.println(i+" "+f+" "+d+" "+c+" "+b);}}

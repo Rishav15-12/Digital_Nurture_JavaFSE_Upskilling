@@ -1,0 +1,1 @@
+import java.util.*; public class Q28_StreamAPIDemo{public static void main(String[]a){System.out.println(Arrays.asList(1,2,3,4).stream().filter(n->n%2==0).toList());}}

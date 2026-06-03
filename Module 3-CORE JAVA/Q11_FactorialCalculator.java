@@ -1,0 +1,1 @@
+import java.util.*; public class Q11_FactorialCalculator{public static void main(String[]a){int n=new Scanner(System.in).nextInt();long f=1;for(int i=1;i<=n;i++)f*=i;System.out.println(f);}}

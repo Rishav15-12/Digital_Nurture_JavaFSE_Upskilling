@@ -1,0 +1,1 @@
+public class Q35_TCPClient{public static void main(String[]a){System.out.println("TCP Client");}}

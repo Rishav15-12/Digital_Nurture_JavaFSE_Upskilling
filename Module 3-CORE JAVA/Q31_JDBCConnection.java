@@ -1,0 +1,1 @@
+public class Q31_JDBCConnection{public static void main(String[]a){System.out.println("Configure DB and JDBC driver");}}

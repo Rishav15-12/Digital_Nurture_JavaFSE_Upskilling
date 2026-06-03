@@ -1,0 +1,1 @@
+import java.util.*; public class Q10_NumberGuessingGame{public static void main(String[]a){int r=new Random().nextInt(100)+1;Scanner s=new Scanner(System.in);int g;do{g=s.nextInt();System.out.println(g<r?"Low":g>r?"High":"Correct");}while(g!=r);}}

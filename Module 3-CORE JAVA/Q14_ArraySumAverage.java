@@ -1,0 +1,1 @@
+public class Q14_ArraySumAverage{public static void main(String[]a){int[] x={1,2,3};int s=0;for(int i:x)s+=i;System.out.println(s+" "+(s/(double)x.length));}}
